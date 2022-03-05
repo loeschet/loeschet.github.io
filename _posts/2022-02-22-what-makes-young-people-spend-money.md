@@ -70,9 +70,7 @@ Doing adrenaline sports is expensive and also here we shouldn't be too surprised
 
 The most negatively correlated features are decision making, interests in documentaries, listening to metal or hardrock and folk music as well as being interested in finances.
 
-The latter I found especially interesting, since one would expect an interest in finances to be positively correlated with spending. If someone is an intelligent investor, I would have expected they have more money and thus can afford a mor luxorious lifesteyle.
-
-However, it could also be that in order to invest, people interested in finance need to save up more money, which is why they also need to spend less and the correlation gets negative.
+Note that the "finances" feature is *not* the interest in finances in general, but the agreement with the satement "I save all the money I can", which is why it is negatively correlated with spending.
 
 ### Predicting spending habits
 
@@ -80,7 +78,7 @@ To see if I can predict the spending habits from the data given in this survey, 
 
 ![Feature importance](/images/2022-02-22-what-makes-young-people-spend-money/importance_mlp.png)
 
-Some of the results are the same as we saw from our correlation study: Shopping and knowing the right people, being interested in finances and looking after one's appearance show up again. 
+Some of the results are the same as we saw from our correlation study: Shopping and knowing the right people, saving a lot of money and looking after one's appearance show up again. 
 
 Interestingly, the belief in final judgement seems to also be a very predictive feature for this model, too! Maybe this is a remnant of the [protestant work ethic](https://en.wikipedia.org/wiki/Protestant_work_ethic)? Who knows.
 
@@ -95,7 +93,7 @@ In this article, we looked at what young people spend their money on and if we c
 
 2. When looking how gender and education affected spending habits, we found out that there is a significant difference for gender, showing that male participants tend to spend more money than their female counterparts, while no such difference was observed for education.
 
-3. Most of the habits that are most strongly correlated to the spending are also connected to money: being interested in shopping, networking, finances, looking after ones appearance etc. Interestingly, the interest in finances is negatively correlated with spending.
+3. Most of the habits that are most strongly correlated to the spending are also connected to money: being interested in shopping, networking, saving money, looking after ones appearance etc.
 
 4. Most of the habits that are strongly correlated with the spending habits also seem to be good predictors. A quite unexpected feature that now also shows up is the belief in final judgement.
 
