@@ -68,7 +68,7 @@ The "appearance and gestures" feature corresponds to the score towards the state
 
 Doing adrenaline sports is expensive and also here we shouldn't be too surprised to see it highly correlated with spending habits. Having a lot of friends is also highly correlated, probably because spending a lot of time with friends often includes fun activities that cost money (e.g. hanging out in bars or clubs).
 
-The most negatively correlated features are decision making, interests in documentaries, listening to metal or hardrock and folk music as well as being interested in finances.
+The most negatively correlated features are decision making, interests in documentaries, listening to metal or hardrock and folk music as well as the "finances" feature.
 
 Note that the "finances" feature is *not* the interest in finances in general, but the agreement with the satement "I save all the money I can", which is why it is negatively correlated with spending.
 
